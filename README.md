@@ -11,6 +11,10 @@ Bash script application to handle customers information into a MariaDB database 
           This file contains the information of the authenticated user to perform the operations provided by this application.  
           Note: 
           Data stored in the following format --> id:username:hashed_password 
+      
+      > DataBase:
+          In This Script Iam using a MariaDB with a DataBase called CustomerData with a table named CustomerTable
+          containing Data Same as in file customers.db with the following Names: customerID, customerName, customerEmail.
           
       > Others: 
           Other files as checker.sh, sql.sh and the other files contains functions used in the main script. 
